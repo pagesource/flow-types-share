@@ -1,0 +1,9 @@
+[include]
+abc
+[exclusion]
+test2
+[ignore]
+.*/pqr/.*
+{{DYNAMIC_IGNORE}}
+[untyped]
+zxc

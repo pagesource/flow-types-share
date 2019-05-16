@@ -1,0 +1,31 @@
+{
+  "name": "@xt-pagesource/flow-types-share",
+  "version": "1.0.0",
+  "description": "This modules enables you to share flow config between different private NPM modules.",
+  "main": "src/index.js",
+  "bin": {
+    "flow-config-generate": "./bin/flow-config-generate.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagesource/flow-types-share.git"
+  },
+  "keywords": [],
+  "author": "Amrit Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pagesource/flow-types-share/issues"
+  },
+  "homepage": "https://github.com/pagesource/flow-types-share#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "tmp": "^0.1.0"
+  }
+}
